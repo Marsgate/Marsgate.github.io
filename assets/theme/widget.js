@@ -52,7 +52,7 @@
     function render(card, cardurl) {
       cardurl = cardurl || client_url;
       if (!cardurl) {
-        cardurl = 'theme/medium_mod.html'
+        cardurl = base + 'cards/' + theme + '.html';
       }
       var user = querydata(card, 'user');
       var repo = querydata(card, 'repo');
