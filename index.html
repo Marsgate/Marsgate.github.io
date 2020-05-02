@@ -1,92 +1,254 @@
-<html>
-    <head>
-        <title>Micah Rassi</title>
-        <meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href="assets/css/main.css" />
-    </head>
-    <body>
-        <header>
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
             <h1>Micah Rassi</h1>
-        </header>
+            <h2>Robotics/Software Engineer</h2>
+            <a href="#" class="btn-rounded-white">Download Resume</a>
+        </div>
+        <!-- End #lead-content -->
 
-        <about>
-            <p>I am an undergraduate at Purdue University majoring in Robotics Engineering Technology. I am passionate about learning, and I love to tackle new challenges. I started with hobby programming and moved on to competitive robotics. As the lead programmer for my highschool team, we broke international records and placed 2nd at the Vex World Championships. The success I achieved influenced me to choose engineering for my career path. Currently I am the software lead for the Purdue ACM SIGbots robotics team, and a freelance programmer in my free time.</p>
-        </about>
+        <div id="lead-overlay"></div>
 
-        <h2>Programming Languages</h2>
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        I am an undergraduate at Purdue University majoring in Robotics Engineering Technology. I am passionate about learning, and I love to tackle new challenges. I started with hobby programming and moved on to competitive robotics. As the lead programmer for my highschool team, we broke international records and placed 2nd at the Vex World Championships. The success I achieved influenced me to choose engineering for my career path. Currently I am the software lead for the Purdue ACM SIGbots robotics team, and a freelance programmer in my free time.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="2014 – Present">
+                <h3>Resolute Logistics</h3>
+                <h4>IT</h4>
+                <p>
+                    Resolute Logistics is the family owned trucking business where I work part time. I perform a variety of tasks related to data oganization and IT management. I programmed calendar management tools using Node JS and a driver data logging system using forms, spreadsheets, and javascript.
+                </p>
+            </div>
+
+            <div data-date="March 2015 – June 2015">
+                <h3>POLYWOOD</h3>
+                <h4>Software Development</h4>
+                <p>
+                    POLYWOOD is a plastic funiture manufactoring company started by my uncle. I worked as a software development intern, where I gained experience in SQL and PHP.
+                </p>
+            </div>
+
+            <div data-date="July 2016 – September 2016">
+                <h3>The Lab</h3>
+                <h4>Electronics Repair</h4>
+                <p>
+                    The Lab is an electronics repair store located in Warsaw, IN. I worked on data recovery, software troubleshooting, and general computer diagnostics.
+                </p>
+            </div>
+
+            <div data-date="June 2018 – December 2018">
+                <h3>AgSync</h3>
+                <h4>Software Development</h4>
+                <p>
+                    AgSync is an agricultural logistics platform that coordinates aerial applicators, foresters, seed companies, and enterprise farmers. I did software development using C# and SQL. I worked on updating API endpoints and bug fixing.
+                </p>
+            </div>
+
+            <div data-date="January 2019 – August 2019">
+                <h3>Raven Industries</h3>
+                <h4>Software Development</h4>
+                <p>
+                    Raven Industries a large argricultural and technology corporation based out of Souix Falls, SD. They aquired AgSync in 2019. I developed an internal monitoring service and dashboard for the Raven Slingshot team. I worked with C#, PHP, and SQL.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">
+        <h2 class="heading">My Github Profile</h2>
+        <div class="education-block">
+            <div class="github-card" id="git" data-github="marsgate" data-width="400" data-height="317" data-theme="medium"></div>
+        <script src="githubcard/widget.js"></script>
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Project Name Here</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                        </p>
+                        <a href="#">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Project Name Here</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                        </p>
+                        <a href="#">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
         <ul>
             <li>C</li>
             <li>C++</li>
-            <li>Web Development</li>
+            <li>JavaScript</li>
             <li>C#</li>
             <li>Python</li>
+            <li>PHP</li>
+            <li>SQL</li>
+            <li>Objective C</li>
+            <li>Node.js</li>
         </ul>
+    </div>
+    <!-- End #skills -->
 
-        <h3>My Github</h2>
-        <div class="github-card" data-github="marsgate" data-width="400" data-height="317" data-theme="medium"></div>
-        <script src="assets/theme/widget.js"></script>
-        <p>Here you can find many of my robotics and hobby projects that I work on in my spare time.</p>
-
-        <div id="workhistory">
-
-            <h2>Work History</h2>
-
-            <h4>Resolute Logistics</h4>
-            <p class="date">Employed: 2014 - Present</p>
-            <p class="info">Resolute Logistics is the family owned trucking business where I work part time.</p>
-            <p><b>Job Description:</b><br> I performed a variety of tasks related to data oganization and IT management. I programmed calendar management tools using Node JS and a driver data logging system using forms, spreadsheets, and javascript.</p>
-
-            <h4>POLYWOOD</h4>
-            <p class="date">Employed: Spring 2015</p>
-            <p class="info">POLYWOOD is a plastic funiture manufactoring company started by my uncle.</p>
-            <p><b>Job Description:</b><br> I worked as a software development intern, where I gained experience in SQL and PHP.</p>
-
-            <h4>The Lab</h4>
-            <p class="date">Employed: Summer 2016</p>
-            <p class="info">The Lab is an electronics repair store located in Warsaw, IN.</p>
-            <p><b>Job Description:</b><br> I worked on data recovery, software troubleshooting, and general computer diagnostics.</p>
-
-            <h4>AgSync</h4>
-            <p class="date">Employed: Summer 2018</p>
-            <p class="info">AgSync is an agricultural logistics platform that coordinates aerial applicators, foresters, seed companies, and enterprise farmers.</p>
-            <p><b>Job Description:</b><br> I did software development using C# and SQL. I spent the summer updating internal API endpoints and bug fixing.</p>
-
-            <h4>Raven Industries</h4>
-            <p class="date">Employed: January 2019 - August 2019</p>
-            <p class="info">Raven Industries a large argricultural and technology corporation based out of Souix Falls, SD. They aquired AgSync in 2019.</p>
-            <p><b>Job Description:</b><br> I developed an internal monitoring service and dashboard for the Raven Slingshot team. I worked with C#, PHP, and SQL.</p>
-        
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/mqkykkaw">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
         </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
 
-        <div>
-            <h2>My Interests</h2>
-            <ul>
-
-                <li>
-                    <h4>Music</h4>
-                    <p>I have been musician all my life. I love playing drums, guitar, bass, and ukulele. One of my hobbies is music production. I write, record, and mix music which I put on my <a href="https://soundcloud.com/micah-rassi">soundcloud</a></p>
-                </li>
-
-                <li>
-                    <h4>Gaming</h4>
-                    <p>I first started programming because I always dreamed of making my own videogames. They still remain a favorite passtime and the only way I have stayed sane during quarantine.</p>
-                </li>
-                
-                <li<>
-                    <h4>Speed Solving</h4>
-                    <p>I love to solve rubiks cubes and have a collection of oddly shaped and sized cubes in my collection. I love learning new puzzles and improving my times.</p>
-                </li>
-            </ul>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2020 MICAH RASSI
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        
-        <h4></h4>
+    </footer>
+    <!-- End footer -->
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
 
-        <footer>
-            <h4>Contact Me:</h4>
-            <phone>574-529-2179</phone>
-            <email>micahrassi@gmail.com</email>
-        </footer>
-    </body>
 </html>
