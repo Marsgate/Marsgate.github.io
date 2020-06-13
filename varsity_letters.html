@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Varsity Letters</title>
+</head>
+
+<body>
+    <form>
+        <h2>Team Number</h2>
+        <input type="text" id="teamnumber" value="574C"/>
+
+        <h2>Season</h2>
+        <input type="text" id="season" value="current"/>
+        
+        <h2>Tournaments attended</h2>
+        <input type="number" id="attendance" value="0">
+
+        <div>
+            <p></p>
+            <input type="button" id="calculate" value="calculate" onclick="start()"/>
+        </div>
+
+        <h2 id="result"></h2>
+    </form>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/varsity_letters.js"></script>
+</body>
+</html>
