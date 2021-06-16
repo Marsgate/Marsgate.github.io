@@ -85,7 +85,7 @@ q {
   -webkit-transition: opacity 500ms linear;
   font-family:SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   font-weight: 700;
-  font-size: 24pt;
+  font-size: 30pt;
 }
 .hidden {
   opacity: 0;
