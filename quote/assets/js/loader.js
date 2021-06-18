@@ -2,7 +2,7 @@ var quote = document.getElementById("quote");
 var img = document.getElementById("bg");
 
 var quoteArray = [];
-var index = 1;
+var index = 0;
 var quoteText = "";
 
 function readData(json) {
@@ -12,7 +12,7 @@ function readData(json) {
         quoteArray.push(cell.$t)
     });
     shuffleArray(quoteArray);
-    quote.innerHTML = quoteArray[0];
+    quoteReplace();
     setInterval(nextQuote, 4000);
 }
 
