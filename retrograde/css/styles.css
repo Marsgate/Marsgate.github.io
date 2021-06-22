@@ -1,0 +1,85 @@
+
+html, body, #container{
+    height: 100%;
+}
+
+article{
+    margin: auto;
+    max-width: 1000px;
+    font-family: "Open Sans";
+    border: 1px solid grey;
+    padding: 0px 30px;
+}
+
+h1 {
+    font-family: Roboto;
+    letter-spacing: .2em;
+    font-size: 48pt;
+    text-align: center;
+    height: 10%;
+}
+
+h2 {
+    font-family: Roboto;
+    font-weight: bolder;
+    font-size: 36pt;
+}
+
+h3 {
+    font-family: Roboto;
+    font-weight: bolder;
+    margin-top:  50px;
+}
+
+#sunDot {
+    border-radius: 50%;
+    opacity: 0.3;
+    margin: auto;
+}
+
+#container{
+    margin-top: -250px;
+}
+
+#sun{
+    text-align: center;
+    position: relative;
+    display: block;
+    width: 310px;
+    margin: auto;
+    height: 90%;
+    padding-top: 300px;
+}
+
+.ring {
+    border-radius: 50%;
+    border: 5px solid black;
+    opacity: 0.3;
+    -webkit-animation-name: rotate;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes rotate {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(-359deg);
+    }
+}
+
+.planet {
+    border-radius:  50%;
+    background-color: black;
+    width: 22px;
+    height: 22px;
+}
+
+header {
+    text-align: center;
+}
+
+p, li {
+    margin-left: 40px;
+}
