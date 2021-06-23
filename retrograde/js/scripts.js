@@ -11,7 +11,7 @@ var sunDot = document.createElement("div");
 sunDot.id = "sunDot";
 sunDot.style.width = sunSize + "px";
 sunDot.style.height = sunSize + "px";
-sunDot.style.backgroundColor = "black";
+sunDot.style.backgroundColor = "#ffffff";
 
 //add the sun
 sun.appendChild(sunDot);
